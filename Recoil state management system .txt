@@ -1,0 +1,15 @@
+Recoil state management system 
+
+recoil setup
+> npm i recoil
+> init atom.js
+> add recoilroot to index.js
+better than context api as it stops re-redering
+
+- so the different items in recoil with their uses
+RecoilRoot: uses to init in a document
+atom: smallest object in which data is stored
+useRecoilState: used to recover data
+useRecoilValue: used to change data stored in recoil
+useSetRecoilState: used to get and change the data in recoil
+selector: 
